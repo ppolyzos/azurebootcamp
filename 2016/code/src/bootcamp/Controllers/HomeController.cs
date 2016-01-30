@@ -23,7 +23,7 @@ namespace bootcamp.Controllers
         {
             Configuration = configuration;
         }
-        public async Task<IActionResult> Index(string proxyUrl = "https://github.com/punitganshani/azurebootcamp-data/raw/master/2016/locations/{0}/data.json")
+        public async Task<IActionResult> Index(string proxyUrl)
         {
             var appSettings = Configuration.Value;
             string location = appSettings.Location;
@@ -33,12 +33,10 @@ namespace bootcamp.Controllers
             {
                 if (!string.IsNullOrEmpty(location))
                 {
-                    var url = String.Format(proxyUrl, location.ToLowerInvariant());
-                    var uri = new Uri(url);
-                    bool isLocalFile = uri.IsFile;
 
-                    if (!isLocalFile)
+                    if (!string.IsNullOrEmpty(proxyUrl))
                     {
+                        var url = string.Format(proxyUrl, location.ToLowerInvariant());
                         using (HttpClient client = new HttpClient())
                         using (HttpResponseMessage response = await client.GetAsync(url))
                         using (HttpContent content = response.Content)
@@ -50,6 +48,7 @@ namespace bootcamp.Controllers
                     }
                     else
                     {
+                        var url = $"{location.ToLowerInvariant()}/data.json";
                         if (System.IO.File.Exists(url))
                         {
                             var contents = System.IO.File.ReadAllText(url);
@@ -63,7 +62,7 @@ namespace bootcamp.Controllers
                 }
 
             }
-            catch
+            catch (Exception ex)
             {
                 return RedirectToAction("Error");
             }

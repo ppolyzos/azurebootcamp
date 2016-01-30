@@ -1,0 +1,152 @@
+﻿{
+  "Location": {
+    "Name": "athens-greece",
+    "Latitude": 38.0602037,
+    "Longitude": 23.8085318,
+    "Address": "Leoforos Kifissias 221, Marousi, Athens"
+  },
+  "Social": {
+    "Meetup": "http://www.meetup.com/DotNetZone/",
+    "EventBrite": "https://www.eventbrite.com/myevent?eid=21096168207",
+    "Facebook": "dotNETZone.gr UG"
+  },
+  "Callout": {
+    "Text": "Registrations Open. RSVP today!",
+    "Link": "https://www.eventbrite.com/myevent?eid=21096168207",
+    "Type": "success"
+  },
+  "Organizers": [
+    {
+      "Name": "DotNetZone.gr",
+      "Social": {
+        "Email": "kmdfaizal@yahoo.com"
+      }
+    },
+    {
+      "Name": "Paris Polyzos",
+      "Social": {
+        "Email": "ppolyzos@outlook.com"
+      }
+    },
+    {
+      "Name": "Kostas Pantos",
+      "Social": {
+        "Email": "kostas@pantos.name"
+      }
+    },
+    {
+      "Name": "George Capnias",
+      "Social": {
+        "Email": "http://capnias.org/"
+      }
+    }
+  ],
+  "Sponsors": [
+    {
+      "Name": "Microsoft",
+      "Image": "/athens-greece/sponsors/msft_1.png",
+      "Link": "http://www.microsoft.com"
+    }
+  ],
+  "Prizes": [
+    {
+      "ImageUrl": "https://c2.staticflickr.com/6/5035/7187433101_e10a1c3abe.jpg",
+      "Link": "#",
+      "Name": "Coming Soon"
+    }
+  ],
+  "Tracks": [
+    {
+      "Name": "Developer Track",
+      "Sessions": [
+        {
+          "SessionId": "Common1",
+          "Time": "09:00 - 09:30",
+          "Title": "Registration"
+        },
+        {
+          "SessionId": "Common2",
+          "Time": "09:30 AM - 10:45 AM",
+          "Title": "Keynote",
+          "Speaker": {
+            "Name": "Kostas Pantos",
+            "Description": "Cloud Solutions Architect",
+            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
+            "Social": {
+              "WebSite": "http://blog.pantos.name/",
+              "Facebook": "https://www.facebook.com/konstantinos.pantos"
+            }
+          }
+        },
+        {
+          "SessionId": "Common3",
+          "Time": "10:45 - 11:00",
+          "Title": "Break"
+        },
+        {
+          "SessionId": "DEV1",
+          "Time": "11:00 AM - 12:15 AM",
+          "Title": "TBD",
+          "Speaker": {
+            "Name": "Paris Polyzos",
+            "Description": "Senior Software Engineer (ZuluTrade Inc)",
+            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
+            "Social": {
+              "WebSite": "http://ppolyzos.com",
+              "Twitter": "https://twitter.com/ppolyzos",
+              "Facebook": "https://www.facebook.com/ppolyzos"
+            }
+          }
+        },
+        {
+          "SessionId": "DEV2",
+          "Time": "12:15 AM - 13:30 PM",
+          "Title": "TBD",
+          "Speaker": {
+            "Name": "George Capnias",
+            "Description": "Software Architect and Development Manage",
+            "ImageUrl": "https://media.licdn.com/media/p/2/005/0a3/192/048cb17.jpg",
+            "Social": {
+              "WebSite": "http://capnias.org"
+            }
+          }
+        },
+        {
+          "SessionId": "Common4",
+          "Time": "12:15 PM - 13:15 PM",
+          "Title": "Lunch"
+        },
+        {
+          "SessionId": "DEV3",
+          "Time": "13:30 PM - 14:30 PM",
+          "Title": "TBD",
+          "Speaker": {
+            "Name": "Dimitris Koutsanastasis",
+            "Description": "Business Evangelist",
+            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/706171_501219823243925_1961547525_o.jpg"
+          }
+        },
+        {
+          "SessionId": "Common5",
+          "Time": "14:30 - 15:45",
+          "Title": "TBD"
+        },
+        {
+          "SessionId": "DEV4",
+          "Time": "15:45 - 16:00",
+          "Title": "Break"
+        },
+        {
+          "SessionId": "DEV5",
+          "Time": "16:00 - 18:00",
+          "Title": "Labs"
+        },
+        {
+          "SessionId": "Kle",
+          "Time": "4:30 PM - 5:30 PM",
+          "Title": "Closing & Luck Draw"
+        }
+      ]
+    }
+  ]
+}

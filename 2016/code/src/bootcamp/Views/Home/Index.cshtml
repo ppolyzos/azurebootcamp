@@ -78,20 +78,20 @@
     }
 
 }
-@if (Model != null && Model.Sponsors != null)
+@if (Model?.Sponsors != null)
 {
     @await Html.PartialAsync("_Sponsors", Model.Sponsors)
 }
-@if (Model != null && Model.Prizes != null)
+@if (Model?.Prizes != null)
 {
     @await Html.PartialAsync("_Prizes", Model.Prizes)
 }
-@if (Model != null && Model.Social != null && Model.Organizers != null)
+@if (Model?.Social != null && Model.Organizers != null)
 {
     @await Html.PartialAsync("_Contact", Model)
 }
 
-@if (Model != null && Model.Location != null)
+@if (Model?.Location != null)
 {
     @await Html.PartialAsync("_Map", Model.Location)
 }
