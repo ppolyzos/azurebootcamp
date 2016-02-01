@@ -1297,3 +1297,19 @@ form .form-control:focus {
 .pre-loader {
     background: #3b4670;
 }
+
+ul.callout {
+    list-style: none;
+      
+}
+ul.callout li {
+    padding: 5px 5px 20px;
+}
+ul.callout .info {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-style: italic;
+    color: #dadada;
+}

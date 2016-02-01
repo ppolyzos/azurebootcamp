@@ -1,4 +1,5 @@
-﻿@model bootcamp.Models.LocationInfo
+﻿@using System.Linq
+@model bootcamp.Models.LocationInfo
 @{
     if (Model != null && Model.Location != null)
     {
@@ -63,9 +64,20 @@
 }
 
 @section Callout{
-    @if (Model != null && Model.Callout != null)
+    @if (Model?.Callout != null && Model.Callout.Any())
     {
-        <a href="@Model.Callout.Link" class="btn btn-@Model.Callout.Type">@Model.Callout.Text</a>
+        <ul class="callout">
+            @foreach (var call in Model.Callout)
+            {
+                <li>
+                    <a href="@call.Link" class="btn btn-@call.Type">@call.Text</a>
+                    @if (!string.IsNullOrEmpty(call.Info))
+                    {
+                        <span class="info">@call.Info</span>
+                    }
+                </li>
+            }
+        </ul>
     }
 }
 

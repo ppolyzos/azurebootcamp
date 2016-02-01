@@ -10,11 +10,19 @@
     "EventBrite": "https://www.eventbrite.com/myevent?eid=21096168207",
     "Facebook": "dotNETZone.gr UG"
   },
-  "Callout": {
-    "Text": "Registrations Open. RSVP today!",
-    "Link": "https://www.eventbrite.com/myevent?eid=21096168207",
-    "Type": "success"
-  },
+  "Callout": [
+    {
+      "Text": "Registrations Open. RSVP today!",
+      "Link": "https://www.eventbrite.com/myevent?eid=21096168207",
+      "Type": "success"
+    },
+    {
+      "Text": "Call for speakers!",
+      "Link": "mailto:ppolyzos@outlook.com",
+      "Type": "info",
+      "Info":  "If you are interested in sharing your expertise in Azure related topics, send us an email to let us know"
+    }
+  ],
   "Organizers": [
     {
       "Name": "DotNetZone.gr",
