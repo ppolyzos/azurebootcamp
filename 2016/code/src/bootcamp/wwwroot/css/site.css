@@ -20,7 +20,7 @@
 
 body {
     font-family: 'Lato', Arial;
-    color: #666666;  
+    color: #666666;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -796,8 +796,6 @@ form textarea.form-control {
 }
 
 header {
-    
-    
     background: #37d0fb;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
@@ -1088,8 +1086,7 @@ section#support .media:hover h3 {
 /* footer section */
 footer {
     background: #37d0fb;
-    
-        color: #ffffff;
+    color: #ffffff;
     /* Old browsers */
     background: -moz-linear-gradient(-45deg, #37d0fb 0%, #3b4670 100%);
     /* FF3.6+ */
@@ -1300,16 +1297,22 @@ form .form-control:focus {
 
 ul.callout {
     list-style: none;
-      
 }
-ul.callout li {
-    padding: 5px 5px 20px;
-}
-ul.callout .info {
-    display: block;
-    width: 400px;
-    margin: 0 auto;
-    padding-top: 10px;
-    font-style: italic;
-    color: #dadada;
+
+    ul.callout li {
+        padding: 5px 5px 20px;
+    }
+
+    ul.callout .info {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 10px;
+        font-style: italic;
+        color: #dadada;
+    }
+
+
+header {
+    background: #37d0fb url('/athens-greece/bg-athens.jpg');
 }

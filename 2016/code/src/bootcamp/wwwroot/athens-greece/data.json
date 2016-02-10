@@ -6,30 +6,23 @@
     "Address": "Leoforos Kifissias 221, Marousi, Athens"
   },
   "Social": {
-    "Meetup": "http://www.meetup.com/DotNetZone/",
-    "EventBrite": "https://www.eventbrite.com/myevent?eid=21096168207",
-    "Facebook": "dotNETZone.gr UG"
+    "EventBrite": "https://www.eventbrite.com/e/global-windows-azure-bootcamp-athens-tickets-21096168207",
+    "Facebook": "https://www.facebook.com/groups/dotnetzone/"
   },
   "Callout": [
     {
       "Text": "Registrations Open. RSVP today!",
-      "Link": "https://www.eventbrite.com/myevent?eid=21096168207",
+      "Link": "https://www.eventbrite.com/e/global-windows-azure-bootcamp-athens-tickets-21096168207",
       "Type": "success"
-    },
-    {
-      "Text": "Call for speakers!",
-      "Link": "mailto:ppolyzos@outlook.com",
-      "Type": "info",
-      "Info":  "If you are interested in sharing your expertise in Azure related topics, send us an email to let us know"
     }
+    //,{
+    //  "Text": "Call for speakers!",
+    //  "Link": "mailto:ppolyzos@outlook.com",
+    //  "Type": "info",
+    //  "Info":  "If you are interested in sharing your expertise in Azure related topics, send us an email to let us know"
+    //}
   ],
   "Organizers": [
-    {
-      "Name": "DotNetZone.gr",
-      "Social": {
-        "Email": "kmdfaizal@yahoo.com"
-      }
-    },
     {
       "Name": "Paris Polyzos",
       "Social": {
@@ -41,12 +34,6 @@
       "Social": {
         "Email": "kostas@pantos.name"
       }
-    },
-    {
-      "Name": "George Capnias",
-      "Social": {
-        "Email": "http://capnias.org/"
-      }
     }
   ],
   "Sponsors": [
@@ -54,6 +41,11 @@
       "Name": "Microsoft",
       "Image": "/athens-greece/sponsors/msft_1.png",
       "Link": "http://www.microsoft.com"
+    },
+    {
+      "Name": "Entersoft",
+      "Image": "/athens-greece/sponsors/entersoft.png",
+      "Link": "http://www.entersoft.com"
     }
   ],
   "Prizes": [
@@ -78,11 +70,12 @@
           "Title": "Keynote",
           "Speaker": {
             "Name": "Kostas Pantos",
-            "Description": "Cloud Solutions Architect",
+            "Description": "Cloud Solutions Architect @ Microsoft Hellas",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
             "Social": {
               "WebSite": "http://blog.pantos.name/",
-              "Facebook": "https://www.facebook.com/konstantinos.pantos"
+              "Facebook": "https://www.facebook.com/konstantinos.pantos",
+              "Twitter": "https://twitter.com/kpantos"
             }
           }
         },
@@ -97,7 +90,7 @@
           "Title": "TBD",
           "Speaker": {
             "Name": "Paris Polyzos",
-            "Description": "Senior Software Engineer (ZuluTrade Inc)",
+            "Description": "Senior Software Engineer @ ZuluTrade",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
             "Social": {
               "WebSite": "http://ppolyzos.com",
@@ -111,11 +104,11 @@
           "Time": "12:15 AM - 13:30 PM",
           "Title": "TBD",
           "Speaker": {
-            "Name": "George Capnias",
-            "Description": "Software Architect and Development Manage",
-            "ImageUrl": "https://media.licdn.com/media/p/2/005/0a3/192/048cb17.jpg",
+            "Name": "Alexandros Fatles",
+            "Description": "Research & Software Development Manager @ SiEBEN",
+            "ImageUrl": "/athens-greece/speakers/alexnew2.jpg",
             "Social": {
-              "WebSite": "http://capnias.org"
+              "Facebook": "https://www.facebook.com/alexandros.fatless"
             }
           }
         },
@@ -129,15 +122,25 @@
           "Time": "13:30 PM - 14:30 PM",
           "Title": "TBD",
           "Speaker": {
-            "Name": "Dimitris Koutsanastasis",
-            "Description": "Business Evangelist",
-            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpa1/t31.0-8/706171_501219823243925_1961547525_o.jpg"
+            "Name": "Stavros Menegos",
+            "Description": "Chief Technology Officer @ Entersoft",
+            "ImageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAOeAAAAJDZjOGRjMGI0LWJmOTktNDYxZi05MzM0LWIzOWU1ZGRmNTAwYQ.jpg"
           }
         },
         {
           "SessionId": "Common5",
           "Time": "14:30 - 15:45",
-          "Title": "TBD"
+          "Title": "TBD",
+          "Speaker": {
+            "Name": "Antonis Chatzipavlis",
+            "Description": "Antonis Chatzipavlis Senior SQL Server DBA at National Bank of Greece Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
+            "ImageUrl": "/athens-greece/speakers/chatzipavlis_1.jpg",
+            "Social": {
+              "WebSite": "http://sqlschool.gr/",
+              "Twitter": "https://twitter.com/antoniosch",
+              "Facebook": "https://www.facebook.com/achatzipavlis"
+            }
+          }
         },
         {
           "SessionId": "DEV4",
@@ -147,7 +150,14 @@
         {
           "SessionId": "DEV5",
           "Time": "16:00 - 18:00",
-          "Title": "Labs"
+          "Title": "Labs",
+          "Speaker": {
+            "Name": "Vasilis Aivailis",
+            "Description": "Senior Software Engineer @ ZuluTrade",
+            "ImageUrl": "https://media.licdn.com/media/p/1/000/107/37d/3fbb3bd.jpg",
+            "Social": {
+            }
+          }
         },
         {
           "SessionId": "Kle",
