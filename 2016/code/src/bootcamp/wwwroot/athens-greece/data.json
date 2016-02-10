@@ -70,7 +70,7 @@
           "Title": "Keynote",
           "Speaker": {
             "Name": "Kostas Pantos",
-            "Description": "Cloud Solutions Architect @ Microsoft Hellas",
+            "Description": "<strong>Cloud Solutions Architect @ Microsoft Hellas</strong> <br />Since 2001, when I started my professional career, I was given the opportunity to work with some of the largest Greek Software development Companies and worked with cutting edge Microsoft technologies. Nowadays I work as a Solutions Architect for Microsoft where I focus in providing innovative cloud solutions.",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
             "Social": {
               "WebSite": "http://blog.pantos.name/",
@@ -90,7 +90,7 @@
           "Title": "TBD",
           "Speaker": {
             "Name": "Paris Polyzos",
-            "Description": "Senior Software Engineer @ ZuluTrade",
+            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
             "Social": {
               "WebSite": "http://ppolyzos.com",
@@ -105,7 +105,7 @@
           "Title": "TBD",
           "Speaker": {
             "Name": "Alexandros Fatles",
-            "Description": "Research & Software Development Manager @ SiEBEN",
+            "Description": "<strong>Research & Software Development Manager @ SiEBEN</strong>",
             "ImageUrl": "/athens-greece/speakers/alexnew2.jpg",
             "Social": {
               "Facebook": "https://www.facebook.com/alexandros.fatless"
@@ -123,7 +123,7 @@
           "Title": "TBD",
           "Speaker": {
             "Name": "Stavros Menegos",
-            "Description": "Chief Technology Officer @ Entersoft",
+            "Description": "<strong>Chief Technology Officer @ Entersoft</strong>",
             "ImageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAOeAAAAJDZjOGRjMGI0LWJmOTktNDYxZi05MzM0LWIzOWU1ZGRmNTAwYQ.jpg"
           }
         },
@@ -133,7 +133,7 @@
           "Title": "TBD",
           "Speaker": {
             "Name": "Antonis Chatzipavlis",
-            "Description": "Antonis Chatzipavlis Senior SQL Server DBA at National Bank of Greece Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
+            "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
             "ImageUrl": "/athens-greece/speakers/chatzipavlis_1.jpg",
             "Social": {
               "WebSite": "http://sqlschool.gr/",
@@ -153,7 +153,7 @@
           "Title": "Labs",
           "Speaker": {
             "Name": "Vasilis Aivailis",
-            "Description": "Senior Software Engineer @ ZuluTrade",
+            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
             "ImageUrl": "https://media.licdn.com/media/p/1/000/107/37d/3fbb3bd.jpg",
             "Social": {
             }
