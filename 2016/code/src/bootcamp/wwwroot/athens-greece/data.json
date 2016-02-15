@@ -85,7 +85,7 @@
           "SessionId": "Session2",
           "Time": "10:30 - 11:15",
           "Title": "Optimize website performance/testing",
-          "Description":  "Coming Soon",
+          "Description": "Caching at different levels is a widely common technique for the enhancement of website speed. Together we will explore all relevant possibilities, tools and technologies out there.",
           "Speaker": {
             "Name": "Alexandros Fatles",
             "Description": "<strong>Research & Software Development Manager @ SiEBEN</strong>",
@@ -121,7 +121,7 @@
           "SessionId": "Session4",
           "Time": "12:30 - 13:30",
           "Title": "Azure Elastic SQL Database",
-          "Description": "When should I write a Stored Procedure? Should I have one for every CRUD operation? When should I create Views? How should I include Business Rules inside a Stored Procedure? ...and what about duplicate code? Questions that we will try together to answer, through an in-depth analysis of Stored Procedures in Azure Elastic SQL Database",
+          "Description": "When should I write a Stored Procedure (SP)? Should I write one for every CRUD operation? When should I create Views? How may I include Business Rules in an SP? How may I avoid duplicate code? These are few of the questions that are going to receive an answer, through an in-depth analysis of Stored Procedures in Azure Elastic SQL Database.",
           "Speaker": {
             "Name": "Antonis Chatzipavlis",
             "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
@@ -156,7 +156,7 @@
           "SessionId": "Session6",
           "Time": "15:00 - 16:00",
           "Title": "Web API on the rocks",
-          "Description": "ASP.NET WebApi is considered among the best frameworks for http-based APIs. Entersoft's experience",
+          "Description": "ASP.NET Web API constitutes one of the best frameworks in the field for the creation of http-based services. We will have the chance to learn some tips and tricks, drawn upon the experience of Entersoft in demanding environments and situations.",
           "Speaker": {
             "Name": "Stavros Menegos",
             "Description": "<strong>Chief Technology Officer @ Entersoft</strong>",
