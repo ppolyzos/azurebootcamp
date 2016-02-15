@@ -1,6 +1,6 @@
 ﻿{
   "Location": {
-    "Name": "athens-greece",
+    "Name": "Athens-Greece",
     "Latitude": 38.0602037,
     "Longitude": 23.8085318,
     "Address": "Leoforos Kifissias 221, Marousi, Athens"
@@ -63,16 +63,16 @@
           "SessionId": "Common1",
           "Time": "09:00 - 09:30",
           "Title": "Registration",
-          "Center":  true
+          "Center":  false
         },
         {
           "SessionId": "Keynote",
           "Time": "09:30 - 10:30",
           "Title": "Build and deploy applications using Microsoft Azure",
-          "Description": "There’s a never-ending stream of cloud innovation that developers must know about, but at the same time confusion around all the different ways of building apps for the cloud. It’s not easy to put all these pieces together and see the \"big picture.\" When do you use PaaS versus IaaS? How should you handle all the data associated with your apps? Should you consider a Micro Service architecture or stick with something more traditional? This session is all about helping you make sense of Azure without drilling into any specific service. Gain a thorough understanding of the components of Azure and how you can take advantage of them as a developer.",
+          "Description": "In the ever-expanding universe of cloud innovation, developers may find themselves at a hard spot as to the different ways of building apps for the cloud and to making good use of the available tools. How do you design, implement and deploy websites in the cloud? What sort of strategies should you select at each case? How do you scale and monitor your cloud applications? This session aims at providing a comprehensive introduction of Azure, without getting into specifics. Get to know all the basics and how to make good use of them in your work as a developer.",
           "Speaker": {
             "Name": "Paris Polyzos",
-            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
+            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Paris is a Fullstack Engineer, with 10 years of experience in the field. He holds an MSc in Electrical Computer Engineering, while, since the early days of his career, he had the chance to work in large and challenging projects. Nowadays, he is mainly focused on the cloud where he designs and builds complex software for a new company of the ZuluTrade Group. He is particularly passionate about the Web, Microsoft technologies and the cloud; thus, his new-found enthusiasm is Microsoft Azure!",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
             "Social": {
               "WebSite": "http://ppolyzos.com",
@@ -98,8 +98,8 @@
         {
           "SessionId": "Break1",
           "Time": "11:15 - 11:30",
-          "Title": "Break",
-          "Center": true
+          "Title": "Coffee Break",
+          "Center": false
         },
         {
           "SessionId": "Session3",
@@ -123,7 +123,7 @@
           "Title": "Azure Elastic SQL Database",
           "Description": "When should I write a Stored Procedure (SP)? Should I write one for every CRUD operation? When should I create Views? How may I include Business Rules in an SP? How may I avoid duplicate code? These are few of the questions that are going to receive an answer, through an in-depth analysis of Stored Procedures in Azure Elastic SQL Database.",
           "Speaker": {
-            "Name": "Antonis Chatzipavlis",
+            "Name": "Antonios Chatzipavlis",
             "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
             "ImageUrl": "/athens-greece/speakers/chatzipavlis_1.jpg",
             "Social": {
@@ -137,16 +137,16 @@
           "SessionId": "BreakLaunch",
           "Time": "13:30 - 14:15",
           "Title": "Lunch Break",
-          "Center": true
+          "Center": false
         },
         {
           "SessionId": "Session5",
           "Time": "14:15 - 15:00",
           "Title": "Azure Search, Solr, Elastic Search",
-          "Description": "Coming Soon",
+          "Description": "Search as a Service hosted on the cloud, made possible with Azure Search. Azure Search is one of the most complete feature, fully managed professional search mechanisms available on the market. Within a micro-session, examples will be given of how developers and companies can benefit from adding search within their application and also how does Azure ease the addition of search capabilities within applications (web/mobile etc.). Search is more than a simple text search, facets to dynamically categorize search results, fuzzy searches that would deal with situations where users have misspelled words, or text suggestions are all available on Azure Search. Finally a quick comparison on how does Azure Search compete with Lucene based Solr, one of the leading enterprise search platforms.",
           "Speaker": {
-            "Name": "Vasilis Aivailis",
-            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
+            "Name": "Vasilis Aivalis",
+            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Vasilis holds a BSc. and MSc. in Computer Science since 2003. He has been working as a software developer for Siemens, Atos-Origin and ZuluTrade. Throughout his career Vasilis has been given the opportunity to work with various industries, platforms and programming languages.",
             "ImageUrl": "https://media.licdn.com/media/p/1/000/107/37d/3fbb3bd.jpg",
             "Social": {
             }
@@ -166,21 +166,19 @@
         {
           "SessionId": "Break2",
           "Time": "16:00 - 16:15",
-          "Title": "Break",
-          "Center": true
+          "Title": "Coffee Break",
+          "Center": false
         },
         {
           "SessionId": "Common1",
           "Time": "16:15 - 18:00",
           "Title": "Labs",
-          "Description":  "Coming Soon",
-          "Center": true
+          "Description": "More details coming Soon"
         },
         {
           "SessionId": "Common1",
           "Time": "18:00 - 19:00",
-          "Title": "Closing & Luck Draw",
-          "Center": true
+          "Title": "Closing & Draws"
         }
       ]
     }
