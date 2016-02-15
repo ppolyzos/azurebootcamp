@@ -62,32 +62,14 @@
         {
           "SessionId": "Common1",
           "Time": "09:00 - 09:30",
-          "Title": "Registration"
+          "Title": "Registration",
+          "Center":  true
         },
         {
-          "SessionId": "Common2",
-          "Time": "09:30 AM - 10:45 AM",
-          "Title": "Keynote",
-          "Speaker": {
-            "Name": "Kostas Pantos",
-            "Description": "<strong>Cloud Solutions Architect @ Microsoft Hellas</strong> <br />Since 2001, when I started my professional career, I was given the opportunity to work with some of the largest Greek Software development Companies and worked with cutting edge Microsoft technologies. Nowadays I work as a Solutions Architect for Microsoft where I focus in providing innovative cloud solutions.",
-            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
-            "Social": {
-              "WebSite": "http://blog.pantos.name/",
-              "Facebook": "https://www.facebook.com/konstantinos.pantos",
-              "Twitter": "https://twitter.com/kpantos"
-            }
-          }
-        },
-        {
-          "SessionId": "Common3",
-          "Time": "10:45 - 11:00",
-          "Title": "Break"
-        },
-        {
-          "SessionId": "DEV1",
-          "Time": "11:00 AM - 12:15 AM",
-          "Title": "TBD",
+          "SessionId": "Keynote",
+          "Time": "09:30 - 10:30",
+          "Title": "Build and deploy applications using Microsoft Azure",
+          "Description": "There’s a never-ending stream of cloud innovation that developers must know about, but at the same time confusion around all the different ways of building apps for the cloud. It’s not easy to put all these pieces together and see the \"big picture.\" When do you use PaaS versus IaaS? How should you handle all the data associated with your apps? Should you consider a Micro Service architecture or stick with something more traditional? This session is all about helping you make sense of Azure without drilling into any specific service. Gain a thorough understanding of the components of Azure and how you can take advantage of them as a developer.",
           "Speaker": {
             "Name": "Paris Polyzos",
             "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
@@ -100,9 +82,10 @@
           }
         },
         {
-          "SessionId": "DEV2",
-          "Time": "12:15 AM - 13:30 PM",
-          "Title": "TBD",
+          "SessionId": "Session2",
+          "Time": "10:30 - 11:15",
+          "Title": "Optimize website performance/testing",
+          "Description":  "Coming Soon",
           "Speaker": {
             "Name": "Alexandros Fatles",
             "Description": "<strong>Research & Software Development Manager @ SiEBEN</strong>",
@@ -113,24 +96,32 @@
           }
         },
         {
-          "SessionId": "Common4",
-          "Time": "12:15 PM - 13:15 PM",
-          "Title": "Lunch"
+          "SessionId": "Break1",
+          "Time": "11:15 - 11:30",
+          "Title": "Break",
+          "Center": true
         },
         {
-          "SessionId": "DEV3",
-          "Time": "13:30 PM - 14:30 PM",
-          "Title": "TBD",
+          "SessionId": "Session3",
+          "Time": "11:30 - 12:30",
+          "Title": "Build Always-On, Hyper-Scalable Microservice-based Cloud Services",
+          "Description": "Microservices is an approach to application development in which every part of the application is deployed as a fully self-contained component that can be individually scaled and updated. With a good microservice architecture, customers can solve the management, deployment, orchestration, and patching needs of a container-based service, with reduced risk of availability loss while maintaining high agility.",
           "Speaker": {
-            "Name": "Stavros Menegos",
-            "Description": "<strong>Chief Technology Officer @ Entersoft</strong>",
-            "ImageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAOeAAAAJDZjOGRjMGI0LWJmOTktNDYxZi05MzM0LWIzOWU1ZGRmNTAwYQ.jpg"
+            "Name": "Kostas Pantos",
+            "Description": "<strong>Cloud Solutions Architect @ Microsoft Hellas</strong> <br />Since 2001, when I started my professional career, I was given the opportunity to work with some of the largest Greek Software development Companies and worked with cutting edge Microsoft technologies. Nowadays I work as a Solutions Architect for Microsoft where I focus in providing innovative cloud solutions.",
+            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
+            "Social": {
+              "WebSite": "http://blog.pantos.name/",
+              "Facebook": "https://www.facebook.com/konstantinos.pantos",
+              "Twitter": "https://twitter.com/kpantos"
+            }
           }
         },
         {
-          "SessionId": "Common5",
-          "Time": "14:30 - 15:45",
-          "Title": "TBD",
+          "SessionId": "Session4",
+          "Time": "12:30 - 13:30",
+          "Title": "Azure Elastic SQL Database",
+          "Description": "When should I write a Stored Procedure? Should I have one for every CRUD operation? When should I create Views? How should I include Business Rules inside a Stored Procedure? ...and what about duplicate code? Questions that we will try together to answer, through an in-depth analysis of Stored Procedures in Azure Elastic SQL Database",
           "Speaker": {
             "Name": "Antonis Chatzipavlis",
             "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
@@ -143,14 +134,16 @@
           }
         },
         {
-          "SessionId": "DEV4",
-          "Time": "15:45 - 16:00",
-          "Title": "Break"
+          "SessionId": "BreakLaunch",
+          "Time": "13:30 - 14:15",
+          "Title": "Launch Break",
+          "Center": true
         },
         {
-          "SessionId": "DEV5",
-          "Time": "16:00 - 18:00",
-          "Title": "Labs",
+          "SessionId": "Session5",
+          "Time": "14:15 - 15:00",
+          "Title": "Azure Search, Solr, Elastic Search",
+          "Description": "Coming Soon",
           "Speaker": {
             "Name": "Vasilis Aivailis",
             "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong>",
@@ -160,9 +153,34 @@
           }
         },
         {
-          "SessionId": "Kle",
-          "Time": "4:30 PM - 5:30 PM",
-          "Title": "Closing & Luck Draw"
+          "SessionId": "Session6",
+          "Time": "15:00 - 16:00",
+          "Title": "Web API on the rocks",
+          "Description": "ASP.NET WebApi is considered among the best frameworks for http-based APIs. Entersoft's experience",
+          "Speaker": {
+            "Name": "Stavros Menegos",
+            "Description": "<strong>Chief Technology Officer @ Entersoft</strong>",
+            "ImageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAOeAAAAJDZjOGRjMGI0LWJmOTktNDYxZi05MzM0LWIzOWU1ZGRmNTAwYQ.jpg"
+          }
+        },
+        {
+          "SessionId": "Break2",
+          "Time": "16:00 - 16:15",
+          "Title": "Break",
+          "Center": true
+        },
+        {
+          "SessionId": "Common1",
+          "Time": "16:15 - 18:00",
+          "Title": "Labs",
+          "Description":  "Coming Soon",
+          "Center": true
+        },
+        {
+          "SessionId": "Common1",
+          "Time": "18:00 - 19:00",
+          "Title": "Closing & Luck Draw",
+          "Center": true
         }
       ]
     }

@@ -14,8 +14,9 @@
         }
     }
 }
-<div class="agenda-event">
+<div class="agenda-event @(Model.Center ? "text-center" : "text-left") pl-20 pr-20">
     <b>@Model.Title</b><br>
+    <p class="text-justify">@Html.Raw(Model.Description)</p>
     @if (hasSpeaker)
     {
         @await Html.PartialAsync("_SessionSpeaker", Model.Speaker)

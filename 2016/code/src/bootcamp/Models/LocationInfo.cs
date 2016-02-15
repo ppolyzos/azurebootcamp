@@ -62,6 +62,9 @@ namespace bootcamp.Models
         public string SessionId { get; set; }
         public string Time { get; set; }
         public string Title { get; set; }
+
+        public bool Center { get; set; }
+        public string Description { get; set; }
         public Speaker Speaker { get; set; }
     }
 

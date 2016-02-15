@@ -13,14 +13,7 @@
             <div class="divider"></div>
         </div>
         <div class="agenda">
-            <div class="col-lg-12 text-center">
-                <a href="#" target="_blank"><img src="https://c2.staticflickr.com/6/5035/7187433101_e10a1c3abe.jpg" height="200px"></a> <br>
-                <h2>Coming Soon</h2>
-            </div>
-            @*<div class="row">
-                <div class="col-md-2 col-md-offset-5 text-center">TBA</div>
-            </div>*@
-            <div class="table-responsive hidden">
+            <div class="table-responsive">
                 <table class="table table-condensed table-bordered">
                     <thead>
                     <tr>
@@ -51,7 +44,7 @@
                                 <td class="agenda-time">@timeBased.Key</td>
                                 @foreach (var session in timeBased.Value)
                                 {
-                                    <td class="agenda-events">
+                                    <td class="agenda-events pl-20 pr-20">
                                         @await Html.PartialAsync("_SessionDetails", session)
                                     </td>
                                 }

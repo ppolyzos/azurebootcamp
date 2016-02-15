@@ -9,7 +9,8 @@
 }
 
 
-<a href="#" data-toggle="modal" data-target="#@bioID">@Model.Name</a> <br />
+<div class="text-left">Speaker: <a href="#" data-toggle="modal" data-target="#@bioID" class="text-italic">@Model.Name</a></div>
+<br />
 <div class="modal fade @bioID" tabindex="-1" role="dialog"
      aria-labelledby="@bioID" aria-hidden="true" id="@bioID">
     <div class="modal-dialog">
@@ -21,7 +22,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md-4"><img src="@imageUrl" style="width:100%;" /></div>
-                    <div class="col-md-8">@Model.Description</div>
+                    <div class="col-md-8 text-left">@Html.Raw(Model.Description)</div>
                 </div>
             </div>
             <div class="modal-footer">
