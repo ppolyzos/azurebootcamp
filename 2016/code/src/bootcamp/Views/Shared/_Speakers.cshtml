@@ -39,7 +39,7 @@
                     }
                     <div class="col-lg-6">
                         <h2 class="col-xs-12">@speakerName</h2>
-                        <div class="col-xs-4"><img style="width:150px; height:auto;" src="@imageUrl"></div>
+                        <div class="col-xs-4"><img style="max-width:150px; width: 100%; height:auto;" src="@imageUrl"></div>
                         <div class="col-xs-8">
                             @Html.Raw(description)  @if (trimmed)
                             {

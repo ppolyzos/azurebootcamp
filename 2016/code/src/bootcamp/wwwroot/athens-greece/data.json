@@ -72,7 +72,7 @@
           "Description": "In the ever-expanding universe of cloud innovation, developers may find themselves at a hard spot as to the different ways of building apps for the cloud and to making good use of the available tools. How do you design, implement and deploy websites in the cloud? What sort of strategies should you select at each case? How do you scale and monitor your cloud applications? This session aims at providing a comprehensive introduction of Azure, without getting into specifics. Get to know all the basics and how to make good use of them in your work as a developer.",
           "Speaker": {
             "Name": "Paris Polyzos",
-            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Paris is a Fullstack Engineer, with 10 years of experience in the field. He holds an MSc in Electrical Computer Engineering, while, since the early days of his career, he had the chance to work in large and challenging projects. Nowadays, he is mainly focused on the cloud where he designs and builds complex software for a new company of the ZuluTrade Group. He is particularly passionate about the Web, Microsoft technologies and the cloud; thus, his new-found enthusiasm is Microsoft Azure!",
+            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Paris is a Fullstack Engineer, with 10 years of experience in the field. He holds an MSc in Electrical & Computer Engineering, while, since the early days of his career, he had the chance to work in large and challenging projects. Nowadays, he is mainly focused on the cloud where he designs and builds complex software for a new company of the ZuluTrade Group. He is particularly passionate about the Web, Microsoft technologies and the cloud; thus, his new-found enthusiasm is Microsoft Azure!",
             "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
             "Social": {
               "WebSite": "http://ppolyzos.com",
@@ -173,7 +173,7 @@
           "SessionId": "Common1",
           "Time": "16:15 - 18:00",
           "Title": "Labs",
-          "Description": "More details coming Soon"
+          "Description": "More details coming soon"
         },
         {
           "SessionId": "Common1",

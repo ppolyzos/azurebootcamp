@@ -1325,3 +1325,14 @@ header {
 
 .pl-25 { padding-left: 25px !important;}
 .text-italic { font-style: italic !important; }
+
+@media screen and (max-width: 767px) {
+    .agenda .table-responsive > .table > thead > tr > th, 
+    .agenda .table-responsive > .table > tbody > tr > th, 
+    .agenda .table-responsive > .table > tfoot > tr > th, 
+    .agenda .table-responsive > .table > thead > tr > td, 
+    .agenda .table-responsive > .table > tbody > tr > td, 
+    .agenda .table-responsive > .table > tfoot > tr > td {
+        white-space: normal !important;
+    }
+}
