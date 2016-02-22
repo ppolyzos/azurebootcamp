@@ -159,8 +159,8 @@
           "Description": "ASP.NET Web API constitutes one of the best frameworks in the field for the creation of http-based services. We will have the chance to learn some tips and tricks, drawn upon the experience of Entersoft in demanding environments and situations.",
           "Speaker": {
             "Name": "Stavros Menegos",
-            "Description": "<strong>Chief Technology Officer @ Entersoft</strong>",
-            "ImageUrl": "https://media.licdn.com/media/AAEAAQAAAAAAAAOeAAAAJDZjOGRjMGI0LWJmOTktNDYxZi05MzM0LWIzOWU1ZGRmNTAwYQ.jpg"
+            "Description": "<strong>Chief Technology Officer @ Entersoft</strong><br />Stavros Menegos received his MSc from Imperial College of Science, Technology and Medicine of the University of London. He was leading the design and implementation of the Omega client/server development framework at Computer LoAgic. In 2000 he was appointed R&D Director at LogicDIS with the responsibility to set the technological strategy for the company. He left LogicDIS in June 2002 to undertake Entersoft’s R&D. Stavros is Chief Technology Officer @ Entersoft and in March 2015 was selected to be a Microsoft Regional Director.",
+            "ImageUrl": "/athens-greece/speakers/stavros.jpg"
           }
         },
         {
