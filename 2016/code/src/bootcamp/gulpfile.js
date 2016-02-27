@@ -29,14 +29,36 @@ gulp.task("clean:css", function (cb) {
 gulp.task("clean", ["clean:js", "clean:css"]);
 
 gulp.task("min:js", function () {
-    return gulp.src([paths.js, "!" + paths.minJs], { base: "." })
+    return gulp.src([
+        
+        paths.webroot + "js/slick.min.js",
+        paths.webroot + "js/placeholdem.min.js",
+        paths.webroot + "js/rs-plugin/js/jquery.themepunch.plugins.min.js",
+        paths.webroot + "js/rs-plugin/js/jquery.themepunch.revolution.min.js",
+        paths.webroot + "js/waypoints.min.js",
+        paths.webroot + "js/TimeCircles.js",
+        paths.webroot + "js/site.js",
+        paths.webroot + "js/custom.js",
+        paths.webroot + "js/google.js"
+        //paths.js,
+        //"!" + paths.webroot + "js/site.min.js"
+    ], { base: "." })
         .pipe(concat(paths.concatJsDest))
         .pipe(uglify())
         .pipe(gulp.dest("."));
 });
 
 gulp.task("min:css", function () {
-    return gulp.src([paths.css, "!" + paths.minCss])
+    return gulp.src([
+            paths.webroot + "css/animate.css",
+            paths.webroot + "css/slick.css",
+            paths.webroot + "js/rs-plugin/css/settings.css",
+            paths.webroot + "css/site.css",
+            paths.webroot + "css/custom.css",
+            paths.webroot + "css/TimeCircles.css",
+           // paths.css,
+           // "!" + paths.minCss
+        ])
         .pipe(concat(paths.concatCssDest))
         .pipe(cssmin())
         .pipe(gulp.dest("."));

@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.PlatformAbstractions;
 using System;
+using Microsoft.AspNet.Mvc;
 
 namespace bootcamp
 {
@@ -28,8 +29,16 @@ namespace bootcamp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
+            services.AddCaching();
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IConfiguration>(x => Configuration);
+            services.Configure<MvcOptions>(options =>
+            {
+                options.CacheProfiles.Add("GWAB", new CacheProfile
+                {
+                    Duration = 1000
+                });
+            });
 
             //var appSettings = Configuration.Get<AppSettings>("AppSettings");
             //Location = appSettings.Location;

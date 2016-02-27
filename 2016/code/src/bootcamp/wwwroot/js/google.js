@@ -160,6 +160,9 @@ if (map != null) {
 
         // Google Maps Scripts
         // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
+        if (window.google) {
+            google.maps.event.addDomListener(window, 'load', init);
+        }
+        
     }
-}
+};

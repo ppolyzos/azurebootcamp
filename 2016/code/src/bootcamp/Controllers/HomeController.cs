@@ -12,59 +12,75 @@ using Microsoft.Extensions.OptionsModel;
 using Microsoft.Extensions.Configuration;
 using System.Diagnostics;
 using bootcamp.Utilities;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace bootcamp.Controllers
 {
     public class HomeController : Controller
     {
         private IOptions<AppSettings> Configuration;
+        private readonly IMemoryCache _cache;
 
-        public HomeController(IOptions<AppSettings> configuration)
+        public HomeController(IOptions<AppSettings> configuration, IMemoryCache cache)
         {
             Configuration = configuration;
+            _cache = cache;
         }
+
+
+        [ResponseCache(CacheProfileName = "GWAB")]
         public async Task<IActionResult> Index(string proxyUrl)
         {
             var appSettings = Configuration.Value;
             string location = appSettings.Location;
 
+         
             LocationInfo locationInfo = null;
-            try
+
+            if (!_cache.TryGetValue("location", out locationInfo))
             {
-                if (!string.IsNullOrEmpty(location))
+                try
                 {
-
-                    if (!string.IsNullOrEmpty(proxyUrl))
+                    if (!string.IsNullOrEmpty(location))
                     {
-                        var url = string.Format(proxyUrl, location.ToLowerInvariant());
-                        using (HttpClient client = new HttpClient())
-                        using (HttpResponseMessage response = await client.GetAsync(url))
-                        using (HttpContent content = response.Content)
-                        {
-                            var contents = await content.ReadAsStringAsync();
-                            locationInfo = JsonConvert.DeserializeObject<LocationInfo>(contents);
-                        }
 
-                    }
-                    else
-                    {
-                        var url = $"{location.ToLowerInvariant()}/data.json";
-                        if (System.IO.File.Exists(url))
+                        if (!string.IsNullOrEmpty(proxyUrl))
                         {
-                            var contents = System.IO.File.ReadAllText(url);
-                            locationInfo = JsonConvert.DeserializeObject<LocationInfo>(contents);
+                            var url = string.Format(proxyUrl, location.ToLowerInvariant());
+                            using (HttpClient client = new HttpClient())
+                            using (HttpResponseMessage response = await client.GetAsync(url))
+                            using (HttpContent content = response.Content)
+                            {
+                                var contents = await content.ReadAsStringAsync();
+                                locationInfo = JsonConvert.DeserializeObject<LocationInfo>(contents);
+                            }
+
                         }
                         else
                         {
-                            throw new FileNotFoundException("File not found at: " + url);
+                            var url = $"{location.ToLowerInvariant()}/data.json";
+                            if (System.IO.File.Exists(url))
+                            {
+                                var contents = System.IO.File.ReadAllText(url);
+                                locationInfo = JsonConvert.DeserializeObject<LocationInfo>(contents);
+                            }
+                            else
+                            {
+                                throw new FileNotFoundException("File not found at: " + url);
+                            }
                         }
                     }
+
+                }
+                catch (Exception ex)
+                {
+                    return RedirectToAction("Error");
                 }
 
-            }
-            catch (Exception ex)
-            {
-                return RedirectToAction("Error");
+                _cache.Set("location", locationInfo, new MemoryCacheEntryOptions()
+                {
+                    AbsoluteExpiration = DateTimeOffset.UtcNow.AddHours(1)
+                });
             }
 
             return View(locationInfo);
