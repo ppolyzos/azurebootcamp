@@ -108,7 +108,8 @@ namespace bootcamp.Models
     {
         public string Name { get; set; }
         public string ImageUrl { get; set; }
-        public string Link { get; set; }
+        public string ProductLink { get; set; }
+        public string SponsorLink { get; set; }
     }
 
 

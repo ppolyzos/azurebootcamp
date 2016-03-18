@@ -50,9 +50,10 @@
   ],
   "Prizes": [
     {
-      "ImageUrl": "https://c2.staticflickr.com/6/5035/7187433101_e10a1c3abe.jpg",
-      "Link": "#",
-      "Name": "Coming Soon"
+      "ImageUrl": "/athens-greece/prizes/entersoft/lumia_650_1.jpg",
+      "ProductLink": "https://www.microsoft.com/en/mobile/phone/lumia650/",
+      "Name": "Entersoft",
+      "SponsorLink": "https://www.entersoft.gr/"
     }
   ],
   "Tracks": [
