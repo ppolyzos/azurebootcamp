@@ -40,12 +40,23 @@
     {
       "Name": "Microsoft",
       "Image": "/athens-greece/sponsors/msft_1.png",
-      "Link": "http://www.microsoft.com"
+      "Link": "http://www.microsoft.com",
+      "Height": "70px",
+      "MarginTop": "80px"
     },
     {
       "Name": "Entersoft",
       "Image": "/athens-greece/sponsors/entersoft.png",
-      "Link": "http://www.entersoft.com"
+      "Link": "http://www.entersoft.com",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "Stoiximan",
+      "Image": "/athens-greece/sponsors/stoiximan.png",
+      "Link": "http://www.stoiximan.gr",
+      "Height": "110px",
+      "MarginTop": "70px"
     }
   ],
   "Prizes": [

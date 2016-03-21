@@ -102,6 +102,8 @@ namespace bootcamp.Models
         public string Name { get; set; }
         public string Image { get; set; }
         public string Link { get; set; }
+        public string Height { get; set; }
+        public string MarginTop { get; set; }
     }
 
     public class Prize

@@ -12,7 +12,7 @@
             </div>
             @foreach (var sponsor in Model)
             {
-                <div class="col-lg-4 text-center"> <a href="@sponsor.Link" target="_blank"><img src="@sponsor.Image" style="margin-top:80px;" height="40px" style="margin-top:40px;" alt="@sponsor.Name"></a> </div>
+                <div class="col-lg-4 text-center"> <a href="@sponsor.Link" target="_blank"><img src="@sponsor.Image" style="margin-top: @sponsor.MarginTop;" height="@sponsor.Height" style="margin-top:40px;" alt="@sponsor.Name"></a> </div>
             }
         </div>
     </div>
