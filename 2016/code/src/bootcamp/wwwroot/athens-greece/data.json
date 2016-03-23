@@ -61,10 +61,29 @@
   ],
   "Prizes": [
     {
-      "ImageUrl": "/athens-greece/prizes/entersoft/lumia_650_1.jpg",
-      "ProductLink": "https://www.microsoft.com/en/mobile/phone/lumia650/",
+      "Products": [
+        {
+          "ImageUrl": "/athens-greece/prizes/entersoft/lumia_650_1.jpg",
+          "ProductLink": "https://www.microsoft.com/en/mobile/phone/lumia650/"
+        }
+      ],
       "Name": "Entersoft",
       "SponsorLink": "https://www.entersoft.gr/"
+    },
+    {
+      "Products": [
+        {
+
+          "ImageUrl": "/athens-greece/prizes/stoiximan/lumia_650_1.jpg",
+          "ProductLink": "http://www.plaisio.gr/tilefona/kinita-smartphones/smartphones/Microsoft-Smartphones-Lumia-650-Mavro-A00027051.htm"
+        },
+        {
+          "ImageUrl": "/athens-greece/prizes/stoiximan/20151124101015_lenovo_miix_300_10_10_1_64gb.jpeg",
+          "ProductLink": "http://www.e-lenovo.gr/p.LENOVO-MiiX-300-10-32GB-Pro-KeyboardDock-QuadCore-W8-1-Convertible.1257810.html"
+        }
+      ],
+      "Name": "Stoiximan",
+      "SponsorLink": "https://www.stoiximan.gr/"
     }
   ],
   "Tracks": [
@@ -75,7 +94,7 @@
           "SessionId": "Common1",
           "Time": "09:00 - 09:30",
           "Title": "Registration",
-          "Center":  false
+          "Center": false
         },
         {
           "SessionId": "Keynote",
