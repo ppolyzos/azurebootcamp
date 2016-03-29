@@ -57,6 +57,63 @@
       "Link": "http://www.stoiximan.gr",
       "Height": "110px",
       "MarginTop": "70px"
+    },
+
+    {
+      "Name": "BlueSyntax",
+      "Image": "/athens-greece/sponsors/BlueSyntax-300x70.gif",
+      "Link": "http://www.bluesyntaxconsulting.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "CloudMonix",
+      "Image": "/athens-greece/sponsors/cloudmonix.png",
+      "Link": "http://cloudmonix.com/?utm_source=gab2016&utm_medium=web&utm_campaign=gab2016",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "CloudBerry",
+      "Image": "/athens-greece/sponsors/cloudberry.jpg",
+      "Link": "http://www.cloudberrylab.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "AzureDockit",
+      "Image": "/athens-greece/sponsors/azuredockitlogo_bluetext-300x188.png",
+      "Link": "http://www.azuredockit.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "MyGet",
+      "Image": "/athens-greece/sponsors/myget.png",
+      "Link": "http://myget.org/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "JetBrains",
+      "Image": "/athens-greece/sponsors/jetbrains.jpg",
+      "Link": "https://www.jetbrains.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "CodeMagazine",
+      "Image": "/athens-greece/sponsors/CODEMagazine.png",
+      "Link": "http://www.codemag.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "Opsgility",
+      "Image": "/athens-greece/sponsors/opsgility.png",
+      "Link": "https://www.opsgility.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
     }
   ],
   "Prizes": [
