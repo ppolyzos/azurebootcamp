@@ -1,16 +1,19 @@
 ﻿@model Session
 @{ 
     bool hasSpeaker = false;
-    if (Model.Speaker != null)
+    if (Model.Speakers != null && Model.Speakers.Any())
     {
         hasSpeaker = true;
-        string speakerName = Model.Speaker.Name;
-        if (string.IsNullOrEmpty(speakerName)
-        || speakerName.Equals("TBD", StringComparison.InvariantCultureIgnoreCase)
-        || speakerName.Equals("TBC", StringComparison.InvariantCultureIgnoreCase))
+        foreach (var speaker in Model.Speakers)
         {
-            speakerName = "TBD";
-            hasSpeaker = false;
+            string speakerName = speaker.Name;
+            if (string.IsNullOrEmpty(speakerName)
+            || speakerName.Equals("TBD", StringComparison.InvariantCultureIgnoreCase)
+            || speakerName.Equals("TBC", StringComparison.InvariantCultureIgnoreCase))
+            {
+                speakerName = "TBD";
+                hasSpeaker = false;
+            }
         }
     }
 }
@@ -19,6 +22,11 @@
     <p class="text-justify">@Html.Raw(Model.Description)</p>
     @if (hasSpeaker)
     {
-        @await Html.PartialAsync("_SessionSpeaker", Model.Speaker)
+        foreach (var speaker in Model.Speakers)
+        {
+            @await Html.PartialAsync("_SessionSpeaker", speaker)
+        }
+        <br />
     }
+    
 </div>

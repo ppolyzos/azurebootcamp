@@ -48,30 +48,30 @@
                             <br />
                             @if (speaker.Social != null)
                             {
-                                @if (!String.IsNullOrEmpty(speaker.Social.Website))
+                                if (!String.IsNullOrEmpty(speaker.Social.Website))
                                 {
                                     <a href="@speaker.Social.Website" class="speakersocial"><i class="fa fa-group fa-fw"></i></a>
                                 }
-                                @if (!String.IsNullOrEmpty(speaker.Social.Meetup))
+                                if (!String.IsNullOrEmpty(speaker.Social.Meetup))
                                 {
                                     <a href="@speaker.Social.Meetup" class="speakersocial"><i class="fa fa-group fa-fw"></i></a>
                                 }
-                                @if (!String.IsNullOrEmpty(speaker.Social.Facebook))
+                                if (!String.IsNullOrEmpty(speaker.Social.Facebook))
                                 {
                                     <a href="@speaker.Social.Facebook" class="speakersocial"><i class="fa fa-facebook fa-fw"></i></a>
                                 }
-                                @if (!String.IsNullOrEmpty(speaker.Social.Twitter))
+                                if (!String.IsNullOrEmpty(speaker.Social.Twitter))
                                 {
                                     <a href="@speaker.Social.Twitter" class="speakersocial"><i class="fa fa-twitter fa-fw"></i></a>
                                 }
-                                @if (!String.IsNullOrEmpty(speaker.Social.Google))
+                                if (!String.IsNullOrEmpty(speaker.Social.Google))
                                 {
                                     <a href="@speaker.Social.Google" class="speakersocial"><i class="fa fa-google fa-fw"></i></a>
                                 }
                             }
                         </div>
                     </div>
-                    @if (trimmed)
+                    if (trimmed)
                     {
                         <div class="text-left modal fade @bioID" tabindex="-1" role="dialog"
                              aria-labelledby="@bioID" aria-hidden="true" id="@bioID">

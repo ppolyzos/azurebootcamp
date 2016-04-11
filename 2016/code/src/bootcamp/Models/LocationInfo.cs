@@ -65,7 +65,7 @@ namespace bootcamp.Models
 
         public bool Center { get; set; }
         public string Description { get; set; }
-        public Speaker Speaker { get; set; }
+        public Speaker[] Speakers { get; set; }
     }
 
     public class Speaker

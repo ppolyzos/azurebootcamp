@@ -9,7 +9,7 @@
     IEnumerable<Speaker> speakers = null;
     if (Model != null && Model.Tracks != null)
     {
-        speakers = Model.Tracks.SelectMany(x => x.Sessions.Select(y => y.Speaker));
+        speakers = Model.Tracks.SelectMany(x => x.Sessions.Where(y => y.Speakers != null).SelectMany(y => y.Speakers));
     }
 }
 

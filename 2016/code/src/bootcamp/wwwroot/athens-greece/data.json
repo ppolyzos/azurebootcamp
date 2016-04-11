@@ -11,8 +11,9 @@
   },
   "Callout": [
     {
-      "Text": "Registrations Open. RSVP today!",
-      "Link": "https://www.eventbrite.com/e/global-windows-azure-bootcamp-athens-tickets-21096168207",
+      "Text": "SOLD OUT! Thank you!",
+      "Link": "#agenda",
+      //"Link": "https://www.eventbrite.com/e/global-windows-azure-bootcamp-athens-tickets-21096168207",
       "Type": "success"
     }
     //,{
@@ -158,30 +159,40 @@
           "Time": "09:30 - 10:30",
           "Title": "Build and deploy applications using Microsoft Azure",
           "Description": "In the ever-expanding universe of cloud innovation, developers may find themselves at a hard spot as to the different ways of building apps for the cloud and to making good use of the available tools. How do you design, implement and deploy websites in the cloud? What sort of strategies should you select at each case? How do you scale and monitor your cloud applications? This session aims at providing a comprehensive introduction of Azure, without getting into specifics. Get to know all the basics and how to make good use of them in your work as a developer.",
-          "Speaker": {
-            "Name": "Paris Polyzos",
-            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Paris is a Fullstack Engineer, with 10 years of experience in the field. He holds an MSc in Electrical & Computer Engineering, while, since the early days of his career, he had the chance to work in large and challenging projects. Nowadays, he is mainly focused on the cloud where he designs and builds complex software for a new company of the ZuluTrade Group. He is particularly passionate about the Web, Microsoft technologies and the cloud; thus, his new-found enthusiasm is Microsoft Azure!",
-            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
-            "Social": {
-              "WebSite": "http://ppolyzos.com",
-              "Twitter": "https://twitter.com/ppolyzos",
-              "Facebook": "https://www.facebook.com/ppolyzos"
+          "Speakers": [
+            {
+              "Name": "Paris Polyzos",
+              "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Paris is a Fullstack Engineer, with 10 years of experience in the field. He holds an MSc in Electrical & Computer Engineering, while, since the early days of his career, he had the chance to work in large and challenging projects. Nowadays, he is mainly focused on the cloud where he designs and builds complex software for a new company of the ZuluTrade Group. He is particularly passionate about the Web, Microsoft technologies and the cloud; thus, his new-found enthusiasm is Microsoft Azure!",
+              "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/558310_457918114238823_1505661319_n.jpg?oh=d4434789a8dd00c0613c874ad28ae87f&oe=572A9997",
+              "Social": {
+                "WebSite": "http://ppolyzos.com",
+                "Twitter": "https://twitter.com/ppolyzos",
+                "Facebook": "https://www.facebook.com/ppolyzos"
+              }
             }
-          }
+          ]
         },
         {
           "SessionId": "Session2",
           "Time": "10:30 - 11:15",
           "Title": "Optimize website performance/testing",
           "Description": "Caching at different levels is a widely common technique for the enhancement of website speed. Together we will explore all relevant possibilities, tools and technologies out there.",
-          "Speaker": {
-            "Name": "Alexandros Fatles",
-            "Description": "<strong>Research & Software Development Manager @ SiEBEN</strong><br />Alexandros has worked more than 10 years in Software Development sector mainly with Microsoft technologies, with large experience in banking sector web applications and Service oriented architecture. Currently holding the position of Software Development Manager at SiEBEN S.A. architecting scalable software solutions in the Cloud.",
-            "ImageUrl": "/athens-greece/speakers/alexnew2.jpg",
-            "Social": {
-              "Facebook": "https://www.facebook.com/alexandros.fatless"
+          "Speakers": [
+            {
+              "Name": "Alexandros Fatles",
+              "Description": "<strong>Research & Software Development Manager @ SiEBEN</strong><br />Alexandros has worked more than 10 years in Software Development sector mainly with Microsoft technologies, with large experience in banking sector web applications and Service oriented architecture. Currently holding the position of Software Development Manager at SiEBEN S.A. architecting scalable software solutions in the Cloud.",
+              "ImageUrl": "/athens-greece/speakers/alexnew2.jpg",
+              "Social": {
+                "Facebook": "https://www.facebook.com/alexandros.fatless"
+              }
+            },
+            {
+              "Name": "Giorgos Basagiannis",
+              "Description": "<strong>Senior Software Engineer @ SiEBEN</strong><br />Giorgos is a full stack engineer with broad technical skill set. He is passionate about developing high quality software that is scalable and easy to maintain. His main areas of interest include Microsoft Web & Cloud Technologies,JavaScript based frameworks,SharePoint and Office 365.",
+              "ImageUrl": "/athens-greece/speakers/Giorgos_Basagiannis.jpg",
+              "Social": {}
             }
-          }
+          ]
         },
         {
           "SessionId": "Break1",
@@ -194,32 +205,36 @@
           "Time": "11:30 - 12:30",
           "Title": "Build Always-On, Hyper-Scalable Microservice-based Cloud Services",
           "Description": "Microservices is an approach to application development in which every part of the application is deployed as a fully self-contained component that can be individually scaled and updated. With a good microservice architecture, customers can solve the management, deployment, orchestration, and patching needs of a container-based service, with reduced risk of availability loss while maintaining high agility.",
-          "Speaker": {
-            "Name": "Kostas Pantos",
-            "Description": "<strong>Cloud Solutions Architect @ Microsoft Hellas</strong> <br />Since 2001, when I started my professional career, I was given the opportunity to work with some of the largest Greek Software development Companies and worked with cutting edge Microsoft technologies. Nowadays I work as a Solutions Architect for Microsoft where I focus in providing innovative cloud solutions.",
-            "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
-            "Social": {
-              "WebSite": "http://blog.pantos.name/",
-              "Facebook": "https://www.facebook.com/konstantinos.pantos",
-              "Twitter": "https://twitter.com/kpantos"
+          "Speakers": [
+            {
+              "Name": "Kostas Pantos",
+              "Description": "<strong>Cloud Solutions Architect @ Microsoft Hellas</strong> <br />Since 2001, when I started my professional career, I was given the opportunity to work with some of the largest Greek Software development Companies and worked with cutting edge Microsoft technologies. Nowadays I work as a Solutions Architect for Microsoft where I focus in providing innovative cloud solutions.",
+              "ImageUrl": "https://scontent-ams3-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/553904_10151260922311562_832885665_n.jpg?oh=05bbf327946239e21b94366c49955e28&oe=573FAEAA",
+              "Social": {
+                "WebSite": "http://blog.pantos.name/",
+                "Facebook": "https://www.facebook.com/konstantinos.pantos",
+                "Twitter": "https://twitter.com/kpantos"
+              }
             }
-          }
+          ]
         },
         {
           "SessionId": "Session4",
           "Time": "12:30 - 13:30",
           "Title": "Azure Elastic SQL Database",
           "Description": "When should I write a Stored Procedure (SP)? Should I write one for every CRUD operation? When should I create Views? How may I include Business Rules in an SP? How may I avoid duplicate code? These are few of the questions that are going to receive an answer, through an in-depth analysis of Stored Procedures in Azure Elastic SQL Database.",
-          "Speaker": {
-            "Name": "Antonios Chatzipavlis",
-            "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
-            "ImageUrl": "/athens-greece/speakers/chatzipavlis_1.jpg",
-            "Social": {
-              "WebSite": "http://sqlschool.gr/",
-              "Twitter": "https://twitter.com/antoniosch",
-              "Facebook": "https://www.facebook.com/achatzipavlis"
+          "Speakers": [
+            {
+              "Name": "Antonios Chatzipavlis",
+              "Description": "<strong>Senior SQL Server DBA at National Bank of Greece</strong> <br />Antonios has been involved with computers since 1982. He started his professional carrier in IT, especially in software development in 1988. In 1998 he started his carrier as Microsoft Certified Trainer in Microsoft development products. He is a moderator of autoexec.gr community",
+              "ImageUrl": "/athens-greece/speakers/chatzipavlis_1.jpg",
+              "Social": {
+                "WebSite": "http://sqlschool.gr/",
+                "Twitter": "https://twitter.com/antoniosch",
+                "Facebook": "https://www.facebook.com/achatzipavlis"
+              }
             }
-          }
+          ]
         },
         {
           "SessionId": "BreakLaunch",
@@ -232,24 +247,28 @@
           "Time": "14:15 - 15:00",
           "Title": "Azure Search, Solr, Elastic Search",
           "Description": "Search as a Service hosted on the cloud, made possible with Azure Search. Azure Search is one of the most complete feature, fully managed professional search mechanisms available on the market. Within a micro-session, examples will be given of how developers and companies can benefit from adding search within their application and also how does Azure ease the addition of search capabilities within applications (web/mobile etc.). Search is more than a simple text search, facets to dynamically categorize search results, fuzzy searches that would deal with situations where users have misspelled words, or text suggestions are all available on Azure Search. Finally a quick comparison on how does Azure Search compete with Lucene based Solr, one of the leading enterprise search platforms.",
-          "Speaker": {
-            "Name": "Vasilis Aivalis",
-            "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Vasilis holds a BSc. and MSc. in Computer Science since 2003. He has been working as a software developer for Siemens, Atos-Origin and ZuluTrade. Throughout his career Vasilis has been given the opportunity to work with various industries, platforms and programming languages.",
-            "ImageUrl": "https://media.licdn.com/media/p/1/000/107/37d/3fbb3bd.jpg",
-            "Social": {
+          "Speakers": [
+            {
+              "Name": "Vasilis Aivalis",
+              "Description": "<strong>Senior Software Engineer @ ZuluTrade</strong><br />Vasilis holds a BSc. and MSc. in Computer Science since 2003. He has been working as a software developer for Siemens, Atos-Origin and ZuluTrade. Throughout his career Vasilis has been given the opportunity to work with various industries, platforms and programming languages.",
+              "ImageUrl": "https://media.licdn.com/media/p/1/000/107/37d/3fbb3bd.jpg",
+              "Social": {
+              }
             }
-          }
+          ]
         },
         {
           "SessionId": "Session6",
           "Time": "15:00 - 16:00",
           "Title": "Web API on the rocks",
           "Description": "ASP.NET Web API constitutes one of the best frameworks in the field for the creation of http-based services. We will have the chance to learn some tips and tricks, drawn upon the experience of Entersoft in demanding environments and situations.",
-          "Speaker": {
-            "Name": "Stavros Menegos",
-            "Description": "<strong>Chief Technology Officer @ Entersoft</strong><br />Stavros Menegos received his MSc from Imperial College of Science, Technology and Medicine of the University of London. He was leading the design and implementation of the Omega client/server development framework at Computer LoAgic. In 2000 he was appointed R&D Director at LogicDIS with the responsibility to set the technological strategy for the company. He left LogicDIS in June 2002 to undertake Entersoft’s R&D. Stavros is Chief Technology Officer @ Entersoft and in March 2015 was selected to be a Microsoft Regional Director.",
-            "ImageUrl": "/athens-greece/speakers/stavros.jpg"
-          }
+          "Speakers": [
+            {
+              "Name": "Stavros Menegos",
+              "Description": "<strong>Chief Technology Officer @ Entersoft</strong><br />Stavros Menegos received his MSc from Imperial College of Science, Technology and Medicine of the University of London. He was leading the design and implementation of the Omega client/server development framework at Computer LoAgic. In 2000 he was appointed R&D Director at LogicDIS with the responsibility to set the technological strategy for the company. He left LogicDIS in June 2002 to undertake Entersoft’s R&D. Stavros is Chief Technology Officer @ Entersoft and in March 2015 was selected to be a Microsoft Regional Director.",
+              "ImageUrl": "/athens-greece/speakers/stavros.jpg"
+            }
+          ]
         },
         {
           "SessionId": "Break2",
