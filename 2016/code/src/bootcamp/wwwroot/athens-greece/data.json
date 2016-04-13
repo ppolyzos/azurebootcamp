@@ -9,6 +9,18 @@
     "EventBrite": "https://www.eventbrite.com/e/global-windows-azure-bootcamp-athens-tickets-21096168207",
     "Facebook": "https://www.facebook.com/groups/dotnetzone/"
   },
+  "LiveStreams": [
+    {
+      "Link": "https://join-noam.broadcast.skype.com/microsoft.com/c0bb47cd-1254-4192-b461-a5ffb82b28f8",
+      "Text": "Live Stream 1/2 (09:30 – 13:30)",
+      "Type": "info"
+    },
+    {
+      "Link": "https://join-noam.broadcast.skype.com/microsoft.com/a68bc2e6-5763-4286-b4b5-41c523905295",
+      "Text": "Live Stream 2/2 (13:30 – 17:30)",
+      "Type": "info"
+    }
+  ],
   "Callout": [
     {
       "Text": "SOLD OUT! Thank you!",
@@ -113,6 +125,27 @@
       "Name": "Opsgility",
       "Image": "/athens-greece/sponsors/opsgility.png",
       "Link": "https://www.opsgility.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "SqlSentry",
+      "Image": "/athens-greece/sponsors/sqlsentry.jpg",
+      "Link": "http://www.sqlsentry.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "Barracuda",
+      "Image": "/athens-greece/sponsors/barracuda.jpg",
+      "Link": "https://www.barracuda.com/",
+      "Height": "70px",
+      "MarginTop": "80px"
+    },
+    {
+      "Name": "Opsgility",
+      "Image": "/athens-greece/sponsors/cerebrata.png",
+      "Link": "https://www.cerebrata.com/",
       "Height": "70px",
       "MarginTop": "80px"
     }

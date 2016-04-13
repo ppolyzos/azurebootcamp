@@ -86,6 +86,28 @@
     </cache>
 }
 
+@section LiveStream {
+    <cache expires-after="@TimeSpan.FromHours(1)">
+    @if (Model?.LiveStreams != null && Model.LiveStreams.Any())
+    {
+        <ul class="live-stream">
+            @foreach (var liveStream in Model.LiveStreams)
+            {
+                <li>
+                    <a href="@liveStream.Link" class="btn btn-@liveStream.Type">@liveStream.Text</a>
+                    @if (!string.IsNullOrEmpty(liveStream.Info))
+                        {
+                        <span class="info">@liveStream.Info</span>
+                    }
+                </li>
+            }
+        </ul>
+    }
+</cache>
+
+}
+
+
 @if (Model != null && Model != null && Model.Tracks != null)
 {
     <cache expires-after="@TimeSpan.FromHours(1)">

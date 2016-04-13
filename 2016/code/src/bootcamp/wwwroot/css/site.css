@@ -1312,6 +1312,23 @@ ul.callout {
         color: #dadada;
     }
 
+    ul.live-stream {
+    list-style: none;
+}
+
+    ul.live-stream li {
+        padding: 2px 2px 20px;
+    }
+
+    ul.live-stream .info {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 10px;
+        font-style: italic;
+        color: #dadada;
+    }
+
 
 header {
     background: #37d0fb url('/athens-greece/bg-athens.jpg');

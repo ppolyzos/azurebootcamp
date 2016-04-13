@@ -11,6 +11,7 @@ namespace bootcamp.Models
         public Location Location { get; set; }
         public Social Social { get; set; }
         public Callout[] Callout { get; set; }
+        public LiveStream[] LiveStreams { get; set; }
         public Contact[] Organizers { get; set; }
         public Sponsor[] Sponsors { get; set; }
         public Prize[] Prizes { get; set; }
@@ -51,6 +52,15 @@ namespace bootcamp.Models
         public string Type { get; set; }
         public string Info { get; set; }
     }
+
+    public class LiveStream
+    {
+        public string Link { get; set; }
+        public string Text { get; set; }
+        public string Type { get; set; }
+        public string Info { get; set; }
+    }
+
     public class Track
     {
         public string Name { get; set; }
